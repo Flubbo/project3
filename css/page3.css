@@ -44,6 +44,11 @@ nav ul li a {
   font-size: 25px;
 }
 
+.petcount {
+  width: 100%;
+  text-align: center;
+}
+
 img {
   width: 40%;
 }
