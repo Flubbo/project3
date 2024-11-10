@@ -10,4 +10,6 @@ var doggo = document.getElementById('doggo');
 var petCountDisplay = document.getElementById('petCountDisplay');
 var petCount = 0;
 doggo.addEventListener('click', increasePetCount);
-doggo.addEventListener('click', updatePetCount);
+doggo.addEventListener('click', function{
+  petCountDisplay.innerHTML = '<h2>You have pet Mando '+petCount+' times!</h2>';
+});
