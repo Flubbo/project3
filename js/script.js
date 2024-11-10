@@ -3,7 +3,7 @@ function increasePetCount{
 };
 
 function updatePetCount{
-    petCountDisplay.innerHTML = 'You have pet Mando '+petCount+' times!';
+    petCountDisplay.innerHTML = '<h2>You have pet Mando '+petCount+' times!</h2>';
 };
 
 var doggo = document.getElementById('doggo');
