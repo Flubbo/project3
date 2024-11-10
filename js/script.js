@@ -3,15 +3,12 @@ function increasePetCount{
 };
 
 function updatePetCount{
-    petCountDisplay.innerHTML = '<h2>You have pet Mando '+petCount+' times!</h2>';
+  var newPetCount = '<h2>You have pet Mando '+petCount+' times!</h2>';
+  petCountDisplay.innerHTML = newPetCount;
 };
 
 var doggo = document.getElementById('doggo');
 var petCountDisplay = document.getElementById('petCountDisplay');
 var petCount = 0;
-doggo.addEventListener('click', function(){
-  petCount += 1;
-});
-doggo.addEventListener('click', function(){
-  petCountDisplay.innerHTML = '<h2>You have pet Mando '+petCount+' times!</h2>';
-});
+doggo.addEventListener('click', increasePetCount);
+doggo.addEventListener('click', updatePetCount);
