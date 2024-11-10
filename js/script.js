@@ -1,8 +1,8 @@
-function increasePetCount{
+function increasePetCount(){
   petCount += 1;
 };
 
-function updatePetCount{
+function updatePetCount(){
   petCountDisplay.innerHTML = '<h2>You have pet Mando ' + petCount + ' times!</h2>';
 };
 
