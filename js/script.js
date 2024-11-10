@@ -1,11 +1,13 @@
-function sendMessage(){
-  alert('Aidan Lish: '+ msg.value);
-}
+function increasePetCount{
+  petCount += 1;
+};
 
-var alertButton = document.getElementById('entrybutton');
-var output = document.getElementById('textoutput');
-var msg = document.getElementById('entryinput');
-alertButton.addEventListener('click', sendMessage);
-alertButton.addEventListener('click', function(){
-  output.innerHTML = msg.value;
-});
+function updatePetCount{
+    petCountDisplay.innerHTML = 'You have pet Mando '+petCount+' times!';
+};
+
+var doggo = document.getElementById('doggo');
+var petCountDisplay = document.getElementById('petCountDisplay');
+var petCount = 0;
+doggo.addEventListener('click', increasePetCount);
+doggo.addEventListener('click', updatePetCount);
