@@ -3,12 +3,11 @@ function increasePetCount{
 };
 
 function updatePetCount{
-  var newPetCount = '<h2>You have pet Mando '+petCount+' times!</h2>';
-  petCountDisplay.innerHTML = newPetCount;
+  petCountDisplay.innerHTML = '<h2>You have pet Mando ' + petCount + ' times!</h2>';
 };
 
 var doggo = document.getElementById('doggo');
 var petCountDisplay = document.getElementById('petCountDisplay');
-var petCount = 0;
+var petCount = 11;
 doggo.addEventListener('click', increasePetCount);
 doggo.addEventListener('click', updatePetCount);
