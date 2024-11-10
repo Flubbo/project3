@@ -1,0 +1,44 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: gray;
+}
+
+header h1 {
+  font-size: 350%;
+  color: white;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  background-color: lightblue;
+  padding: 15px;
+  border-radius: 12px;
+  width: 98%;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a, section h2 {
+  color: white;
+}
+
+.maincontent {
+  float: left;
+  width: 65%;
+  text-align: center;
+}
+
+section ul {
+  list-style-type: none;
+}
+
+img {
+  width: 30%;
+  float: right;
+  margin: 15px;
+}

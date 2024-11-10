@@ -1,0 +1,49 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: gray;
+  color: white;
+}
+
+header h1 {
+  font-size: 350%;
+  color: white;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  background-color: lightblue;
+  padding: 15px;
+  border-radius: 12px;
+  width: 98%;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+}
+
+.lefttext {
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.righttext {
+  width: 25%;
+  float: right;
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+}
+
+img {
+  width: 40%;
+}
