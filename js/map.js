@@ -18,7 +18,7 @@ function init(){
     animation: google.maps.Animation.BOUNCE,
   });
   
-  var contentString = '<h1>This is the center of London</h1>';
+  var contentString = '<h2>This is the center of London</h2>';
   
   var infowindow = new google.maps.InfoWindow({
     content: contentString
