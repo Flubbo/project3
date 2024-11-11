@@ -13,5 +13,5 @@ function init(){
   
   var myMap = new google.maps.Map(el, mapOptions);
 }
-
+  
 google.maps.event.addDomListener(window, 'load', init);
