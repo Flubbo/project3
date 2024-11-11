@@ -42,3 +42,7 @@ nav ul li a {
   background-color: gray;
   margin: 30px auto;
 }
+
+.popup {
+  color: black;
+}
