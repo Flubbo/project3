@@ -17,7 +17,6 @@ function init(){
     position: myLocation,
     map: myMap,
     animation: google.maps.Animation.BOUNCE,
-    icon: '../media/doggo.jpg'
   });
   
   var contentString = '<h1>This is the center of London</h1>';
