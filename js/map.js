@@ -12,6 +12,23 @@ function init(){
   };
   
   var myMap = new google.maps.Map(el, mapOptions);
+  
+  var marker = new google.maps.Marker({
+    position: myLocation,
+    map: myMap,
+    animation: google.maps.Animation.BOUNCE,
+    icon: '../media/doggo.jpg'
+  });
+  
+  var contentString = '<h1>This is the center of London</h1>';
+  
+  var infowindow = new google.maps.InfoWindow({
+    content: contentString
+  });
+  
+  google.maps.event.addListener(marker, 'mouseover', function(){
+    infowindow.open(myMap, marker);
+  });
 }
   
 google.maps.event.addDomListener(window, 'load', init);
